@@ -1,9 +1,10 @@
-// app.js - MVP logic for Longevitate.ai
+
 let taxonomy = [];
 
 // Load taxonomy.json and populate the influencer dropdown
 async function loadTaxonomy() {
   taxonomy = await fetch('taxonomy.json').then(res => res.json());
+
   const select = document.getElementById('influencer');
   taxonomy.forEach(item => {
     const opt = document.createElement('option');
@@ -13,31 +14,34 @@ async function loadTaxonomy() {
   });
 }
 
-// Create a provider card with inline citation and snippet
+// Create a provider card with multiple references and video support
 function createProviderCard(service, location) {
   const keywords = service.search_keywords.join(' OR ');
   const query = `${keywords} near ${location}`;
   const url = `https://www.google.com/maps/search/${encodeURIComponent(query)}`;
 
-  let citationHTML = '';
-  let snippetHTML = '';
+  let referencesHTML = '';
+
   if (service.references && service.references.length) {
-    const ref = service.references[0];
-    citationHTML = `
-      <p class="provider-citation">Source: <a href="${ref.url}" target="_blank" class="reference-link">${ref.title}</a></p>
-    `;
-    if (ref.snippet) {
-      snippetHTML = `
-        <p class="provider-snippet text-sm text-gray-400 mb-2">${ref.snippet}</p>
+    service.references.forEach(ref => {
+      const isVideo = ref.type === 'video';
+      referencesHTML += `
+        <p class="provider-citation">
+          Source: <a href="${ref.url}" target="_blank" class="reference-link">${isVideo ? '🎥 ' : ''}${ref.title}</a>
+        </p>
       `;
-    }
+      if (ref.snippet) {
+        referencesHTML += `
+          <p class="provider-snippet text-sm text-gray-400 mb-2">${ref.snippet}</p>
+        `;
+      }
+    });
   }
 
   return `
     <div class="provider-card">
       <h2 class="provider-title">${service.name}</h2>
-      ${citationHTML}
-      ${snippetHTML}
+      ${referencesHTML}
       <a href="${url}" target="_blank" class="provider-link">Find Providers</a>
     </div>
   `;
