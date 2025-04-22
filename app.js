@@ -11,6 +11,8 @@ async function loadTaxonomy() {
     opt.textContent = item.influencer;
     select.appendChild(opt);
   });
+
+  select.addEventListener('change', searchProviders); // Auto-update on influencer change
 }
 
 function createProviderCard(service, location) {
