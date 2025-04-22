@@ -64,5 +64,16 @@ async function searchProviders() {
   });
 }
 
-window.onload = loadTaxonomy;
+window.onload = () => {
+  loadTaxonomy();
+
+  // Trigger search on Enter key in location input
+  const locationInput = document.getElementById('location');
+  locationInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      searchProviders();
+    }
+  });
+};
+
 document.getElementById('searchButton').addEventListener('click', searchProviders);
