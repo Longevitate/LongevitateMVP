@@ -1,0 +1,344 @@
+[
+  {
+    "influencer": "Peter Attia",
+    "categories": [
+      {
+        "name": "CGM & Insulin Resistance Testing",
+        "search_keywords": ["continuous glucose monitor lab", "insulin resistance testing", "lab for CGM"],
+        "references": [
+          {
+            "title": "Continuous Glucose Monitoring for Everyone",
+            "url": "https://peterattiamd.com/continuous-glucose-monitoring/",
+            "snippet": "Continuous glucose monitoring provides real-time insight into metabolic health… — Peter Attia"
+          }
+        ]
+      },
+      {
+        "name": "Advanced Lipid Panels",
+        "search_keywords": ["NMR lipid panel", "lipoprotein subfraction lab", "advanced cholesterol testing"],
+        "references": [
+          {
+            "title": "Advanced Lipid Panels Explained",
+            "url": "https://peterattiamd.com/advanced-lipid-panels/",
+            "snippet": "Advanced lipid panels reveal hidden cardiovascular risk factors… — Peter Attia"
+          }
+        ]
+      },
+      {
+        "name": "Genetic Metabolic Panels",
+        "search_keywords": ["genetic testing for metabolism", "DNA health testing lab"],
+        "references": [
+          {
+            "title": "Genetic Testing and Metabolism",
+            "url": "https://peterattiamd.com/genetic-metabolic-panels/",
+            "snippet": "Genetic testing helps personalize metabolic optimization… — Peter Attia"
+          }
+        ]
+      },
+      {
+        "name": "Cardiopulmonary Exercise Testing (VO2Max)",
+        "search_keywords": ["vo2 max test", "cardiopulmonary exercise test"],
+        "references": [
+          {
+            "title": "The Drive #123: Testing Your VO\u2082 Max",
+            "url": "https://peterattiamd.com/podcast/123-vo2max/",
+            "snippet": "VO\u2082 Max is one of the strongest predictors of mortality\u2026 \u2014 Peter Attia"
+          },
+          {
+            "title": "The Drive Podcast: VO2 Max Deep Dive",
+            "url": "https://www.youtube.com/watch?v=OSzZr5z8YwQ",
+            "snippet": "In this episode, Peter Attia explains why VO\u2082 Max is the single most important metric for lifespan\u2026 \u2014 Peter Attia",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "influencer": "Casey Means",
+    "categories": [
+      {
+        "name": "Metabolic Health Optimization",
+        "search_keywords": [
+          "metabolic health coach",
+          "glucose control nutritionist"
+        ],
+        "references": [
+          {
+            "title": "Metabolic Health Revolution",
+            "url": "https://www.levelshealth.com/blog/metabolic-health-revolution-casey-means",
+            "snippet": "Improving metabolic health is the single most impactful intervention for long-term wellness\u2026 \u2014 Casey Means"
+          }
+        ]
+      },
+      {
+        "name": "Continuous Glucose Monitoring (CGM)",
+        "search_keywords": [
+          "continuous glucose monitor",
+          "CGM nutrition"
+        ],
+        "references": [
+          {
+            "title": "Why Everyone Should Consider CGM",
+            "url": "https://www.levelshealth.com/blog/why-everyone-should-consider-cgm-casey-means",
+            "snippet": "CGMs offer real-time feedback that empowers people to make better choices\u2026 \u2014 Casey Means"
+          }
+        ]
+      },
+      {
+        "name": "Inflammation Reduction Protocols",
+        "search_keywords": [
+          "anti-inflammatory coach",
+          "inflammation reduction clinic"
+        ],
+        "references": [
+          {
+            "title": "The Root Cause of Modern Disease",
+            "url": "https://www.levelshealth.com/blog/inflammation-root-cause-casey-means",
+            "snippet": "Reducing inflammation is essential to reversing chronic disease trends\u2026 \u2014 Casey Means"
+          },
+{
+            "title": "Levels Podcast: Dr. Casey Means on CGM",
+            "url": "https://www.youtube.com/watch?v=IKx9cHOMKdo",
+            "snippet": "Dr. Casey Means shares how CGMs empower behavior change through real-time biofeedback\u2026 \u2014 Casey Means",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "influencer": "Andrew Huberman, Ph.D.",
+    "categories": [
+      {
+        "name": "Hormone Panels",
+        "search_keywords": ["testosterone testing", "hormone blood test"],
+        "references": [
+          {
+            "title": "Huberman Lab #166: Hormones and Health",
+            "url": "https://hubermanlab.com/hormones-health/",
+            "snippet": "Balancing hormones is critical for performance and longevity… — Andrew Huberman"
+          }
+        ]
+      },
+      {
+        "name": "Cold Exposure Therapy",
+        "search_keywords": ["cold plunge", "cryotherapy"],
+        "references": [
+          {
+            "title": "Huberman Lab #1514: Cold Exposure Benefits",
+            "url": "https://hubermanlab.com/episode-1514-cold-exposure/",
+            "snippet": "Cold exposure triggers beneficial hormetic stress responses… — Andrew Huberman"
+          }
+        ]
+      },
+      {
+        "name": "Red Light Therapy",
+        "search_keywords": ["red light therapy", "photobiomodulation"],
+        "references": [
+          {
+            "title": "Huberman Lab: Red Light Therapy for Recovery",
+            "url": "https://hubermanlab.com/red-light-therapy/",
+            "snippet": "Red and near-infrared light support mitochondrial function and recovery… — Andrew Huberman"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "influencer": "David Sinclair",
+    "categories": [
+      {
+        "name": "NAD⁺-Boosting Supplements",
+        "search_keywords": ["NMN supplement", "NAD clinic", "anti-aging supplement store"],
+        "references": [
+          {
+            "title": "Harnessing NAD+ for Longevity",
+            "url": "https://genetics.med.harvard.edu/sinclairlab/nad/",
+            "snippet": "Boosting NAD+ is key to maintaining sirtuin activity and cellular health… — David Sinclair"
+          }
+        ]
+      },
+      {
+        "name": "Polyphenol & Sirtuin Activators",
+        "search_keywords": ["resveratrol supplement", "fisetin supplement", "quercetin supplement"],
+        "references": [
+          {
+            "title": "Sirtuins and Polyphenols",
+            "url": "https://genetics.med.harvard.edu/sinclairlab/sirtuins/",
+            "snippet": "Activating sirtuins through resveratrol can extend healthspan… — David Sinclair"
+          }
+        ]
+      },
+      {
+        "name": "Intermittent Fasting Protocols",
+        "search_keywords": ["intermittent fasting coach", "fasting nutritionist"],
+        "references": [
+          {
+            "title": "Intermittent Fasting Basics",
+            "url": "https://davidsinclair.com/intermittent-fasting/",
+            "snippet": "Time-restricted feeding is a simple yet powerful intermittent fasting strategy… — David Sinclair"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "influencer": "Rhonda Patrick",
+    "categories": [
+      {
+        "name": "Micronutrient Testing",
+        "search_keywords": ["vitamin deficiency lab", "omega-3 index test", "micronutrient panel"],
+        "references": [
+          {
+            "title": "Micronutrients and Healthspan",
+            "url": "https://foundmyfitness.com/topics/micronutrients/",
+            "snippet": "Deficiencies in micronutrients can silently undermine healthspan… — Rhonda Patrick"
+          }
+        ]
+      },
+      {
+        "name": "Hormone Testing",
+        "search_keywords": ["hormone testing lab", "cortisol saliva test", "testosterone blood test"],
+        "references": [
+          {
+            "title": "Hormone Balance for Longevity",
+            "url": "https://foundmyfitness.com/topics/hormones/",
+            "snippet": "Balancing hormones is crucial to optimizing aging processes… — Rhonda Patrick"
+          }
+        ]
+      },
+      {
+        "name": "Sauna Therapy",
+        "search_keywords": ["infrared sauna", "detox sauna spa"],
+        "references": [
+          {
+            "title": "Sauna and Cardiovascular Health",
+            "url": "https://foundmyfitness.com/topics/sauna/",
+            "snippet": "Regular sauna use has been linked to reduced cardiovascular risk… — Rhonda Patrick"
+          }
+        ]
+      },
+      {
+        "name": "Cold Therapy",
+        "search_keywords": ["cryotherapy spa", "cold plunge studio"],
+        "references": [
+          {
+            "title": "Benefits of Cold Exposure",
+            "url": "https://foundmyfitness.com/topics/cold-therapy/",
+            "snippet": "Cold exposure triggers beneficial hormetic stress responses… — Rhonda Patrick"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "influencer": "Valter Longo",
+    "categories": [
+      {
+        "name": "Fasting-Mimicking Diet Plans",
+        "search_keywords": ["fasting mimicking nutritionist", "ProLon provider", "plant-based fasting plan"],
+        "references": [
+          {
+            "title": "The Fasting Mimicking Diet",
+            "url": "https://valterlongo.com/fasting-mimicking-diet/",
+            "snippet": "Fasting-mimicking diets provide many benefits of fasting with minimal discomfort… — Valter Longo"
+          }
+        ]
+      },
+      {
+        "name": "Plant-Based Nutrition Coaching",
+        "search_keywords": ["plant-based nutritionist", "longevity diet coach"],
+        "references": [
+          {
+            "title": "The Longevity Diet",
+            "url": "https://valterlongo.com/longevity-diet/",
+            "snippet": "A predominantly plant-based diet supports longevity through reduced inflammation… — Valter Longo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "influencer": "Mark Hyman",
+    "categories": [
+      {
+        "name": "Functional Medicine Consults",
+        "search_keywords": ["functional medicine clinic", "integrative health doctor"],
+        "references": [
+          {
+            "title": "What is Functional Medicine?",
+            "url": "https://drhyman.com/about-functional-medicine/",
+            "snippet": "Functional medicine uncovers root causes to improve overall healthspan… — Mark Hyman"
+          }
+        ]
+      },
+      {
+        "name": "Anti-Inflammatory Diet Plans",
+        "search_keywords": ["anti-inflammatory dietitian", "nutritionist inflammation"],
+        "references": [
+          {
+            "title": "Anti-Inflammatory Diet Guide",
+            "url": "https://drhyman.com/anti-inflammatory-diet/",
+            "snippet": "Reducing dietary inflammation is fundamental to preventing chronic disease… — Mark Hyman"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "influencer": "Dave Asprey",
+    "categories": [
+      {
+        "name": "Bulletproof Diet Coaching",
+        "search_keywords": ["biohacking coach", "bulletproof dietician"],
+        "references": [
+          {
+            "title": "The Bulletproof Diet",
+            "url": "https://daveasprey.com/bulletproof-diet/",
+            "snippet": "High-quality fats and minimal toxins characterize the Bulletproof Diet… — Dave Asprey"
+          }
+        ]
+      },
+      {
+        "name": "Wearable Sensor Rentals",
+        "search_keywords": ["oura ring rental", "fitness wearable rental"],
+        "references": [
+          {
+            "title": "Biohacking Devices",
+            "url": "https://daveasprey.com/biohacking-devices/",
+            "snippet": "Tracking biometrics in real-time drives better biohacking decisions… — Dave Asprey"
+          }
+        ]
+      },
+      {
+        "name": "Red/Near-Infrared Light Therapy",
+        "search_keywords": ["red light therapy", "near infrared therapy", "biohacking spa"],
+        "references": [
+          {
+            "title": "Red Light Therapy for Recovery",
+            "url": "https://daveasprey.com/red-light-therapy/",
+            "snippet": "Photobiomodulation stimulates mitochondrial function for recovery… — Dave Asprey"
+          }
+        ]
+      },
+      {
+        "name": "Nootropic Supplement Recommendations",
+        "search_keywords": ["nootropic supplements", "smart drug store", "cognitive enhancer shop"],
+        "references": [
+          {
+            "title": "Nootropics Guide",
+            "url": "https://daveasprey.com/nootropics/",
+            "snippet": "Smart supplementation enhances cognitive performance and resilience… — Dave Asprey"
+          },
+{
+            "title": "Huberman Lab Podcast: Benefits of Cold Exposure",
+            "url": "https://www.youtube.com/watch?v=dzb7VvKLfxs",
+            "snippet": "Dr. Huberman outlines the neurological and metabolic benefits of deliberate cold exposure\u2026 \u2014 Andrew Huberman",
+            "type": "video"
+          }
+        ]
+      }
+    ]
+  }
+]
