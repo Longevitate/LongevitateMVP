@@ -79,3 +79,64 @@
   .provider-link:hover {
     text-decoration: underline;
   }
+
+
+.provider-citation {
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: #90cdf4;
+}
+
+.reference-link {
+  text-decoration: none;
+  color: #90cdf4;
+}
+
+.reference-link:hover {
+  text-decoration: underline;
+}
+
+.provider-citation {
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: #90cdf4;
+}
+
+.reference-link {
+  text-decoration: none;
+  color: #90cdf4;
+}
+
+.reference-link:hover {
+  text-decoration: underline;
+}
+
+.provider-snippet {
+  margin-bottom: 1rem;
+  color: #d1d5db;
+  padding-left: 1rem;
+  position: relative;
+  font-style: normal;
+}
+
+.provider-snippet::before {
+  content: "“";
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #d1d5db;
+  font-style: italic;
+}
+
+.provider-snippet em::after {
+  content: "”";
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+  color: #d1d5db;
+  font-style: italic;
+}
+
+.provider-snippet em {
+  font-style: italic;
+}

@@ -1,7 +1,6 @@
 
 let taxonomy = [];
 
-// Load taxonomy.json and populate the influencer dropdown
 async function loadTaxonomy() {
   taxonomy = await fetch('taxonomy.json').then(res => res.json());
 
@@ -14,7 +13,6 @@ async function loadTaxonomy() {
   });
 }
 
-// Create a provider card with multiple references and video support
 function createProviderCard(service, location) {
   const keywords = service.search_keywords.join(' OR ');
   const query = `${keywords} near ${location}`;
@@ -30,9 +28,11 @@ function createProviderCard(service, location) {
           Source: <a href="${ref.url}" target="_blank" class="reference-link">${isVideo ? '🎥 ' : ''}${ref.title}</a>
         </p>
       `;
+
       if (ref.snippet) {
+        const [quotePart, authorPart] = ref.snippet.split("—").map(s => s.trim());
         referencesHTML += `
-          <p class="provider-snippet text-sm text-gray-400 mb-2">${ref.snippet}</p>
+          <p class="provider-snippet"><em>${quotePart}</em>${authorPart ? ' — ' + authorPart : ''}</p>
         `;
       }
     });
@@ -47,7 +47,6 @@ function createProviderCard(service, location) {
   `;
 }
 
-// Search for providers based on influencer and location
 async function searchProviders() {
   const influencer = document.getElementById('influencer').value;
   const location = document.getElementById('location').value.trim();
@@ -63,6 +62,5 @@ async function searchProviders() {
   });
 }
 
-// Event listeners
 window.onload = loadTaxonomy;
 document.getElementById('searchButton').addEventListener('click', searchProviders);
